@@ -7,15 +7,15 @@
     right: 2px;
     width: 32px;
     height: 32px;
-    top: -20vh;
-    box-shadow: rgb(0 0 0 / 30%) 0 0 5px 4px;
-    filter: brightness(0.8);
-    transition: all 0.2s;
+    top: min(-20vh,-15vw);
+    filter: brightness(0.95);
+    transition: all 0.3s;
 }
 
 .fw-button-container:hover{
-    filter: brightness(1);
-    transition: all 0.2s;
+    filter: brightness(1.2);
+    background-color: rgba(0,0,0,0.35);
+    transition: all 0.3s;
 }
 
 .fw-button-container img{
@@ -26,7 +26,7 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 0;
+    left: 1px;
     right: 0;
     margin: auto;
 	filter: invert(1);
