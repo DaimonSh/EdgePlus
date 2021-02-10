@@ -11,7 +11,7 @@ height: 35px;
 top: -20vh;
 ">
 <img style="
-max-height: 70%;
+    max-height: 70%;
     max-width: 70%;
     width: auto;
     height: auto;
