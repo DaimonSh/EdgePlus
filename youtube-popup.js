@@ -8,7 +8,7 @@ cursor: pointer;
 right: 2px;
 width: 35px;
 height: 35px;
-top: -20vh;
+top: -15vh;
 ">
 <img style="
     max-height: 70%;
