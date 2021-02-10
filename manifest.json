@@ -1,6 +1,6 @@
 {
   "name": "Edge Plus",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
   "description": "",
   "browser_action": {
@@ -11,7 +11,8 @@
     "tabs"
   ],
   "content_scripts" : [{
-    "js": ["youtube-popup.js"],
+    "js": ["modules/yt-fw/yt-fw.js"],
+    "css": ["modules/yt-fw/yt-fw.css"],
     "matches": ["https://www.youtube.com/watch*"],
     "run_at": "document_end"
   }]
