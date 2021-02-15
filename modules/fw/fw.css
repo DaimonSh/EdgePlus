@@ -1,5 +1,5 @@
 :root{
-	/* rgba(0,0,0,0.5) #4691f6 */
+	/* rgba(0,0,0,0.5) #4691f6 #13aff0*/
 	--bg-color:#13aff0;
 	--svg-color:#ffffff;
 }
@@ -14,20 +14,20 @@
 	cursor: pointer;
 	top: 0;
     left: 0;
-	right: 0;
-	bottom: 0;
 	text-align: center;
-	
-	background-color: rgba(0,0,0,0.5);
+
     transform: translate(50%, 50%);
 	
-	transition: all 0.3s;
+	background-color: rgba(0,0,0,0.5);
+    
+	
+	transition: all 0.5s;
 }
 
 .fw-button-container:hover{
 	background-color: var(--bg-color);
 	
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 
 .fw-button-container img{
@@ -59,9 +59,7 @@
     margin: auto;
 }
 
-.fw-svg-icon path,
-.fw-svg-icon polygon,
-.fw-svg-icon rect {
+.fw-svg-icon path,polygon,rect {
 	fill: var(--svg-color);
 	stroke: var(--svg-color);
     stroke-width: 0.55;

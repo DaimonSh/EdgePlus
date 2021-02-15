@@ -1,6 +1,6 @@
 {
   "name": "Edge Plus",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "manifest_version": 2,
   "description": "",
   "browser_action": {
@@ -8,12 +8,20 @@
   },
   "permissions": [
     "https://*/*",
-    "tabs"
+    "tabs",
+    "storage",
+    "notifications",
+    "contextMenus"
   ],
   "content_scripts" : [{
-    "js": ["modules/fw/fw.js"],
+    "js": ["lib/jquery-1.12.4.js","modules/fw/fw.js"],
+    "all_frames": true,
     "css": ["modules/fw/fw.css"],
     "matches": ["<all_urls>"],
     "run_at": "document_idle"
-  }]
+  }],
+  "background": {
+    "scripts": ["modules/background/background.js"],
+    "persistent": false
+  }
 }
