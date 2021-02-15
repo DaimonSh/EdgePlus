@@ -19,9 +19,5 @@
     "css": ["modules/fw/fw.css"],
     "matches": ["<all_urls>"],
     "run_at": "document_idle"
-  }],
-  "background": {
-    "scripts": ["modules/background/background.js"],
-    "persistent": false
-  }
+  }]
 }
