@@ -1,5 +1,4 @@
 :root{
-	/* rgba(0,0,0,0.5) #4691f6 #13aff0*/
 	--bg-color:#13aff0;
 	--svg-color:#ffffff;
 }
@@ -20,7 +19,6 @@
 	
 	background-color: rgba(0,0,0,0.5);
     
-	
 	transition: all 0.5s;
 }
 
@@ -62,7 +60,7 @@
 .fw-svg-icon path,polygon,rect {
 	fill: var(--svg-color);
 	stroke: var(--svg-color);
-    stroke-width: 0.55;
+    stroke-width: 0.65;
 }
 
 .fw-svg-icon circle {
