@@ -4,6 +4,7 @@
 }
 
 .fw-button-container{
+    margin: 0;
     border-radius: 5px;
     text-align: center;
     position: absolute;
