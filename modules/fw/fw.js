@@ -23,20 +23,10 @@ function OnButtonClick(event, video)
 {
 	if (video != document.pictureInPictureElement && !video.disablePictureInPicture)
 	{
-		try {
-			video.requestPictureInPicture();
-		}
-		catch (error) {
-			console.error(error);
-		}
+		video.requestPictureInPicture().catch(err => console.log(err));
 	}
 	else if(document.pictureInPictureElement != null)
 		document.exitPictureInPicture(); 
-
-	if(video.disablePictureInPicture)
-	{
-		console.warn("PIP disabled");
-	}
 
 	event.stopPropagation();
 }
