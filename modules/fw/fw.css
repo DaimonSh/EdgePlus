@@ -20,13 +20,13 @@
 	
 	background-color: rgba(0,0,0,0.5);
     
-	transition: all 0.5s;
+	transition: background-color 0.5s;
 }
 
 .fw-button-container:hover{
 	background-color: var(--bg-color);
 	
-    transition: all 0.5s;
+    transition: background-color 0.5s;
 }
 
 .fw-button-container img{
@@ -41,10 +41,6 @@
     right: 0;
     margin: auto;
 	filter: invert(1);
-}
-
-.hidden{
-	display: none;
 }
 
 .fw-svg-icon {
